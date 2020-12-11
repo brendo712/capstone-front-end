@@ -10,11 +10,11 @@ My idea is for an app that will allow users to build out itineraries specific to
 
 ## Technologies
 
-Python/flask
-React
-semantic-ui
-peewee
-sqlite
+- Python/flask
+- React
+- semantic-ui
+- peewee
+- sqlite
 
 ## User Stories
 
