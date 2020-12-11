@@ -4,7 +4,7 @@
 not currently working on heroku
 
 
-##Pitch
+## Pitch
 
 My idea is for an app that will allow users to build out itineraries specific to traveling in a van/camper. I want the user to be able to build a profile which will allow them to create itineraries, update them for any unplanned changes, look back on them and leave reviews of their experience, and share them with their friends.
 
