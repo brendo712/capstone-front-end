@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import './App.css'
 import ItineraryContainer from './ItineraryContainer'
 import LoginRegisterForm from './LoginRegisterForm'
-import Header from './Header'
+import Headers from './Header'
+// import Menus from './Menu'
+import { Header, Image } from 'semantic-ui-react'
 
 export default class App extends Component {
   constructor() {
@@ -100,11 +102,16 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
+      <Header as='h1' color= 'blue' textAlign='center'>
+        <Image src="/camper-van.png" alt="image" />VanLife Travel App
+      </Header>
         {
           this.state.loggedIn
           ?
           <React.Fragment>
-            <Header username={this.state.loggedInUsername} logout={this.logout} />
+            <Header as='h3'verticalalign='text-top'>
+              <Headers username={this.state.loggedInUsername} logout={this.logout} />
+            </Header>
             <ItineraryContainer />
           </React.Fragment>
           :
